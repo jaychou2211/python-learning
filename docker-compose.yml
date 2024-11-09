@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  python-dev:
+    build: .
+    volumes:
+      - .:/app
+    stdin_open: true  # docker run -i
+    tty: true        # docker run -t
+    command: /bin/bash
