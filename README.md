@@ -1,22 +1,22 @@
-# Python 學習環境設置
+# Learning Python
 
-這個專案提供了一個基於 Docker 的 Python 3.11 開發環境。
+Source: [Python As Fast as Possible - Learn Python in ~75 Minutes](https://youtu.be/VchuKL44s6E?si=_S07G6Rl87FFAPUt)
 
-## 啟動步驟
+## Getting Started
 
-1. 建立並啟動 Docker 容器（背景執行） 
+1. Create and start Docker container (run in background)
 
 ```bash
 docker compose up -d
 ```
 
-2. 進入容器
+2. Enter the container
 
 ```bash
 docker compose exec python-dev bash
 ```
 
-3. 可以確認 Python 版本
+3. Check Python version as a simple verification
 
 ```bash
 python --version
